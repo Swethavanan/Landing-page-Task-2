@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "page-blue": "#0E38CD",
+              "page-white": "#FFFFFF",
+              "page-black": "#323232",
+              "page-lightblue": "#4883FF",
+              "page-l1p1": "#04016C",
+              "page-l2p1": "#4A16BD",
+              "page-l3p1": "#2E08C7",
+              "page-l4p1": "#7E08C7",
+              "page-sign1": "#083F9B",
+              "page-sign2": "#7F56D9",
+              "page-l1p2": "#D9ECFF",
+              "page-l2p2": "#F0F3FF",
+              "page-grey": "#4A4A4A",
+              "page-darkgrey": "#4F547B",
+              "page-lightblu2":"#0094E7",
+              "page-grey2":"#4E596B",
+              "page-grey3":"#324361",
+              "page-l1p3":"#739FE8",
+              "page-l2p3":"#4F18CA",
+              "page-l1p4":"#D9ECFF",
+              "page-l2p4":"#D9ECFF", 
+              "page-l1p5":"#00B3FF",
+              "page-l2p5":"#1901F8",
+              "page-l3p5":"#E441FF",
+              "page-para":"#7E7EAA",
+          },
+          },
+          fontFamily: {
+            righteous: ["Righteous,sans-serif"],
+            saira: ["Saira,sans-serif"],
+            rowdies: ["Rowdies,sans-serif"],
+            inter:["Inter,sans-serif"]
+          },
+          container: {
+            center: true,
+            padding: "1rem",
+            screen: {
+              lg: "1124px",
+              xl: "1124px",
+              "2xl": "1124px",
+            },
+          },
+        },
+      };
+    </script>
+    <title>Landing page 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Righteous&family=Rowdies:wght@300;400;700&family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body class="">
+    <!--header-->
+    <!--Navigation bar-->
+    <header>
+      <nav class="container flex items-center bg-page-white">
+        <div class="mt-5">
+          <img src="asset 2/Askmeidentity logo.png" alt="logo" />
+        </div>
+        <ul
+          class="hidden sm:flex flex-1 justify-end items-center gap-10 font-righteous font-bold text-page-black"
+        >
+          <li>Home</li>
+          <li>About</li>
+          <li>Courses</li>
+          <li>Contact</li>
+          <div class="px-16">
+            <img src="asset 2/search.png" alt="profile" />
+          </div>
+          <li class="text-page-grey font-saira">Login</li>
+          <button
+            type="button"
+            class="px-9 py-4 rounded-lg font-normal font-saira text-page-white bg-gradient-to-r from-page-sign1 to-page-sign2 mr-8"
+          >
+            Signup
+          </button>
+        </ul>
+      </nav>
+    </header>
+    <!--page 1-->
+    <section class="overflow-hidden">
+        <div
+        class="bg-gradient-to-b from-page-l1p1 from-30% to-page-l2p1 to-70%"
+      >
+        <div class="container flex flex-col sm:flex-row pt-3">
+          <div class=" sm:pt-20 ml-16">
+            <h5 class="text-sm font-normal text-page-white tracking-widest font-righteous pb-5">
+              Successful coaches are visionaries
+            </h5>
+            <h1 class="text-5xl w-96 pt-3 font-righteous text-page-white font-bold">
+              Good<span class="text-page-blue p-3">coaching</span>is good teaching &
+              nothing else.
+            </h1>
+            <button class="mt-20 ml-2 border-2 p-4 px-10 rounded-lg font-righteous text-page-white" type="submit">
+              View Courses
+            </button>
+            <span class="ml-5 font-righteous text-page-white">Get Free Consultation</span>
+            <div class="mt-16 ml-2">
+              <input
+                class="focus:outline-none rounded-lg w-full p-3  relative placeholder:font-righteous placeholder:text-page-darkgrey"
+                type="text"
+                placeholder="What do you want to learn today?"
+              />
+              <button
+                class="absolute  mt-1 p-2 px-5  bg-gradient-to-r font-righteous text-page-white from-page-sign1 to-page-sign2 rounded-md -ml-24"
+                type="submit"
+              >
+              
+                 Search
+              </button>
+              <div class="mt-32">
+                <img
+                  class="absolute w-40 -mt-60 left-96 ml-52 h-40 pl-2 translate-y-12"
+                  src="asset 2/Rectangle 8674.png"
+                />
+                <img
+                  class="absolute w-32 -bottom-16 left-96 ml-60 pr-6 h-36 pt-4 -translate-y-6"
+                  src="asset 2/Rectangle 8675.png"
+                />
+                <img
+                  class="absolute ml-80 left-72 -bottom-16 w-36 h-36 pr-3 pl-1 -translate-y-6"
+                  src="asset 2/Rectangle 8673.png"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="flex sm:ml-40 sm:mt-24">
+            <div class="sm:pr-5 w-10">
+              <img src="asset 2/lineeeeee.png" />
+            </div>
+            <div class="container text-xs tracking-wide font-extralight">
+              <h5 class="text-page-white font-righteous font-semibold pb-2">Shyam</h5>
+              <p class="w-56 text-page-white font-rowdies pb-2">
+                In a coaching role, you ask the questions and rely more on your
+                staff, who become the experts, to provide the information.
+              </p>
+              <p class="font-inter text-page-lightblu2">4.9</p>
+              <img
+                class="relative md:-top-60 left-40 sm:left-36 "
+                src="asset 2/circle2.png"
+              />
+              <img
+                class=" w-[450px] absolute top-96 md:top-14 md:right-12 md:right-12 -translate-y-1"
+                src="asset 2/women10.png"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="-mt-[405px]">
+            <hr class="text-white" />
+            <ul
+              class="flex flex-wrap gp-4 sm:justify-center items-center lg:gap-20 sm:pl-20 p-2 bg-gradient-to-r from-page-l2p1 to-page-l4p1"
+            >
+              <li><img src="asset 2/spotify.png" /></li>
+              <li><img src="asset 2/amazon.png" /></li>
+              <li><img src="asset 2/spotify.png" /></li>
+              <li><img src="asset 2/cisxo.png" /></li>
+              <li><img src="asset 2/logitech.png" /></li>
+              <li><img src="asset 2/amazon.png" /></li>
+            </ul>
+          </div>
+        
+      </div>
+     </section>
+    
+    <!--page 1 done-->
+
+    <!--page 2-->
+    <section class="overflow-hidden">
+        <div class="bg-gradient-to-b from-page-l1p2 to-page-l2p2 pb-20">
+         <div class="flex gap-52">
+            <div class="mt-20 pl-48">
+                <img src="asset 2/p2circle.png" alt="circle">
+            </div>
+            <div class="text-center">
+                <h2 class="font-rowdies text-page-black  mt-20 text-3xl">Featured <span class="text-page-lightblue">Courses</span></h2>
+                <p class="text-page-black font-righteous  pt-2 tracking-widest">The feature courses are we invented our teaching part</p>
+            </div>
+        </div>
+        <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 max-w-screen-lg mt-16">
+            <!--card 1-->
+            <div class="bg-page-white w-80 h-96 shadow-lg rounded-lg overflow-hidden">
+                <img class="w-full" src="asset 2/c1p2.png" alt="card1">
+                <div class="flex justify-between  text-xs text-page-grey2 font-semibold ">
+                    <span class="pl-3 pt-5 font-saira">1,957 Students</span>
+                    <span class="pr-3 pt-5 font-saira">01h 59m</span>
+                  </div>
+                  <div>
+                    <h1 class="pl-3 pt-7 text-lg font-saira font-bold text-page-grey3">Motion Graphics: Create a Nice<br>
+                        Typography Animation</h1>
+                  </div>
+                  <div class="flex justify-between">
+                    <span class="pl-3 pt-9 font-bold font-saira text-md text-page-grey2">Rs.499</span>
+                    <span class="pr-3 pt-9"><img class="w-6" src="asset 2/cartsvg.svg" alt="cart"></span>
+            </div>
+        </div>
+        <!--card 1 end-->
+        <div class="bg-page-white w-80 h-96 shadow-lg rounded-lg overflow-hidden">
+            <img class="w-full" src="asset 2/c2p2.png" alt="card1">
+            <div class="flex justify-between  text-xs text-page-grey2 font-semibold ">
+                <span class="pl-3 pt-5 font-saira">9,575 Students</span>
+                <span class="pr-3 pt-5 font-saira">01h 59m</span>
+              </div>
+              <div>
+                <h1 class="pl-3 pt-7 text-lg font-saira font-bold text-page-grey3">Advance PHP knowledge with JS to<br>
+                    make smart web</h1>
+              </div>
+              <div class="flex justify-between">
+                <span class="pl-3 pt-9 font-bold font-saira text-md text-page-grey2">Rs.499</span>
+                <span class="pr-3 pt-9"><img class="w-6" src="asset 2/cartsvg.svg" alt="cart"></span>
+        </div>
+    </div>
+    <!--card2 end-->
+    <div class="bg-page-white w-80 h-96 shadow-lg rounded-lg overflow-hidden">
+        <img class="w-full" src="asset 2/c3p2.png" alt="card1">
+        <div class="flex justify-between  text-xs text-page-grey2 font-semibold ">
+            <span class="pl-3 pt-5 font-saira">2957 Students</span>
+            <span class="pr-3 pt-5 font-saira">02h 49m</span>
+          </div>
+          <div>
+            <h1 class="pl-3 pt-7 text-lg font-saira font-bold text-page-grey3">Education Software and PHP and JS
+                System Script</h1>
+          </div>
+          <div class="flex justify-between">
+            <span class="pl-3 pt-9 font-bold font-saira text-md text-page-grey2">Rs.499</span>
+            <span class="pr-3 pt-9"><img class="w-6" src="asset 2/cartsvg.svg" alt="cart"></span>
+    </div>
+</div>
+<!--card 3 end-->
+<div class="bg-page-white w-80 h-96 shadow-lg rounded-lg overflow-hidden">
+    <img class="w-full" src="asset 2/c4p2.png" alt="card1">
+    <div class="flex justify-between  text-xs text-page-grey2 font-semibold ">
+        <span class="pl-3 pt-5 font-saira">5,457 Students</span>
+        <span class="pr-3 pt-5 font-saira">01h 49m</span>
+      </div>
+      <div>
+        <h1 class="pl-3 pt-7 text-lg font-saira font-bold text-page-grey3">The Complete Financial Analyst<br>
+            Training & Investing
+      </div>
+      <div class="flex justify-between">
+        <span class="pl-3 pt-9 font-bold font-saira text-md text-page-grey2">Rs.499</span>
+        <span class="pr-3 pt-9"><img class="w-6" src="asset 2/cartsvg.svg" alt="cart"></span>
+</div>
+</div>
+<!--card 4 end-->
+<div class="bg-page-white w-80 h-96 shadow-lg rounded-lg overflow-hidden">
+    <img class="w-full" src="asset 2/c5p2.png" alt="card1">
+    <div class="flex justify-between  text-xs text-page-grey2 font-semibold ">
+        <span class="pl-3 pt-5 font-saira">595 Students</span>
+        <span class="pr-3 pt-5 font-saira">01h 49m</span>
+      </div>
+      <div>
+        <h1 class="pl-3 pt-7 text-lg font-saira font-bold text-page-grey3">Marketing 2023: Complete Guide To<br>
+            Instagram Growth</h1>
+      </div>
+      <div class="flex justify-between">
+        <span class="pl-3 pt-9 font-bold font-saira text-md text-page-grey2">Rs.499</span>
+        <span class="pr-3 pt-9"><img class="w-6" src="asset 2/cartsvg.svg" alt="cart"></span>
+</div>
+</div>
+<!--card 5 end-->
+<div class="bg-page-white w-80 h-96 shadow-lg rounded-lg overflow-hidden">
+    <img class="w-full" src="asset 2/c6p2.png" alt="card1">
+    <div class="flex justify-between  text-xs text-page-grey2 font-semibold ">
+        <span class="pl-3 pt-5 font-saira">458 Students</span>
+        <span class="pr-3 pt-5 font-saira">03h 00m</span>
+      </div>
+      <div>
+        <h1 class="pl-3 pt-7 text-lg font-saira font-bold text-page-grey3">Learn 3D Modelling and Design<br>
+            for Beginners</h1>
+      </div>
+      <div class="flex justify-between">
+        <span class="pl-3 pt-9 font-bold font-saira text-md text-page-grey2">Rs.499</span>
+        <span class="pr-3 pt-9"><img class="w-6" src="asset 2/cartsvg.svg" alt="cart"></span>
+</div>
+</div>
+<!--card 6 end-->
+    </div>
+    <!--end of cards-->
+    <div class="flex justify-center mt-20 ">
+        <button type="button" class="font-righteous py-3 px-7 bg-gradient-to-r from-page-sign1 to-page-sign2 text-page-white rounded-lg ">Explore courses</button>
+    </div>
+    </div>
+    </section>
+    <!--end of page 2-->
+    <section class="overflow-hidden">
+        <div class="bg-gradient-to-r from-page-l1p3 to-page-l2p3">
+            <div class="text-center">
+                <h2 class="text-page-white font-righteous text-3xl tracking-wider font-bold pt-20">
+                    Why <span class="text-page-blue">learn</span> with our courses?
+                </h2>
+                <p class="text-page-white font-saira tracking-widest font-light pt-10">We are providing the best courses and top classes.And <br>extradinery placement training.....</p>
+            </div>
+            <div class="flex item-center justify-between py-28 px-36">
+                <div>
+                    <img class="pl-14" src="asset 2/learn.svg" alt="learn">
+                    <h2 class="font-righteous font-semibold text-lg text-page-white px-14 pt-10 pb-4">01. Learn</h2>
+                    <p class="font-righteous text-page-white font-extralight">Learn continually. There is always<br>
+                        “one more thing”to learn.</p>
+                </div>
+                <div><img src="asset 2/Line 15.png" alt=""></div>
+                
+                <div>
+                    <img class="pl-14" src="asset 2/graduate.svg" alt="graduate">
+                    <h2 class="font-righteous font-semibold text-lg text-page-white px-14 pt-10 pb-4">02. Graduate</h2>
+                    <p class="font-righteous text-page-white font-extralight pl-6">Be bold,be courageous,<br>
+                        be your best.</p>
+                </div>
+                  <div><img src="asset 2/Line 15.png" alt=""></div>
+                <div>
+                    <img class="pl-14" src="asset 2/work.svg" alt="work">
+                    <h2 class="font-righteous font-semibold text-lg text-page-white px-14 pt-10 pb-4">03. Work</h2>
+                    <p class="font-righteous text-page-white font-extralight">Great companies are built in<br>
+                        the office,with hard work put<br>
+                        in by team.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end of page 3-->
+    <section class="overflow-hidden">
+        <div class="bg-gradient-to-b from-page-l1p4 to-page-l2p4 ">
+            <div class="text-center">
+                <h1 class="font-righteous text-page-black font-bold text-2xl tracking-wide pt-20">Top<span class="text-page-blue">categories</span></h1>
+                <p class="font-righteous text-page-grey2 text-lg font-light tracking-wider pt-4">100+ unique online course list designs</p>
+            </div>
+            <div class="container mt-16 pb-24 sm:grid grid-cols-6 md:grid-cols-3 lg:grid-cols-6 gap-28 max-w-screen-lg">
+              
+        
+                <div class="bg-page-white w-40 h-64 shadow-lg rounded-lg overflow-hidden">
+                    <div>
+                        <img class="px-8 py-6" src="asset 2/pcard1.png" alt="card1">
+                    </div>
+                    <div>
+                        <h2 class="font-righteous font-bold text-page-grey3 text-center pt-4">Digital<br>Marketing</h2>
+                        <p class="font-righteous font-extralight text-page-darkgrey text-sm pt-4 text-center">25 courses</p>
+                    </div>
+                    </div>
+                    <!--card1 up-->
+                    <div class="bg-page-white w-40 h-64 shadow-lg rounded-lg overflow-hidden">
+                        <div>
+                            <img class="px-8 py-6" src="asset 2/pcard2.png" alt="card1">
+                        </div>
+                        <div>
+                            <h2 class="font-righteous font-bold text-page-grey3 text-center pt-4">Web<br>
+                                Development</h2>
+                            <p class="font-righteous font-extralight text-page-darkgrey text-sm pt-4 text-center">16 courses</p>
+                        </div>
+                        </div>
+                        <!--card2 up-->
+                        <div class="bg-page-white w-40 h-64 shadow-lg rounded-lg overflow-hidden">
+                            <div>
+                                <img class="px-8 py-6" src="asset 2/pcard5.png" alt="card1">
+                            </div>
+                            <div>
+                                <h2 class="font-righteous font-bold text-page-grey3 text-center pt-4">Art &<br>
+                                    Humanities</h2>
+                                <p class="font-righteous font-extralight text-page-darkgrey text-sm pt-4 text-center">76 courses</p>
+                            </div>
+                            </div>
+                            <!--card3 up-->
+                            <div class="bg-page-white w-40 h-64 shadow-lg rounded-lg overflow-hidden">
+                                <div>
+                                    <img class="px-8 py-6" src="asset 2/pcard4.png" alt="card1">
+                                </div>
+                                <div>
+                                    <h2 class="font-righteous font-bold text-page-grey3 text-center pt-4">Personal<br>
+                                        Development</h2>
+                                    <p class="font-righteous font-extralight text-page-darkgrey text-sm pt-4 text-center">22 courses</p>
+                                </div>
+                                </div>
+                                <!--card4 up-->
+                                <div class="bg-page-white w-40 h-64 shadow-lg rounded-lg overflow-hidden">
+                                    <div>
+                                        <img class="px-8 py-6" src="asset 2/pcard3.png" alt="card1">
+                                    </div>
+                                    <div>
+                                        <h2 class="font-righteous font-bold text-page-grey3 text-center pt-4">IT and<br>
+                                            Software</h2>
+                                        <p class="font-righteous font-extralight text-page-darkgrey text-sm pt-4 text-center">110 courses</p>
+                                    </div>
+                                    </div>
+                                    <!--card5 up-->
+                                    <div class="bg-page-white w-40 h-64 shadow-lg rounded-lg overflow-hidden">
+                                        <div>
+                                            <img class="px-8 py-6" src="asset 2/pcard6.png" alt="card1">
+                                        </div>
+                                        <div>
+                                            <h2 class="font-righteous font-bold text-page-grey3 text-center pt-4">Graphic<br>
+                                                Design</h2>
+                                            <p class="font-righteous font-extralight text-page-darkgrey text-sm pt-4 text-center">85 courses</p>
+                                        </div>
+                                        </div>
+                                        <!--card6 up-->
+                </div>
+                
+        </div>
+    </section>
+    <!--end of page 4-->
+    <section class="overflow-hidden">
+        
+          <div>
+            <div class="flex  justify-between mx-48 my-48 w-2/3 h-96 bg-gradient-to-r from-page-l1p5 via-page-l2p5 to-page-l3p5  rounded-2xl">
+                <div class="">
+                    <img class="pl-8 pt-12" src="asset 2/p1.png" alt="">
+                    <div>
+                    <img class="pl-28 pt-12" src="asset 2/p2.png" alt=""></div>
+                    <img class="pl-8 pt-12" src="asset 2/p3.png" alt="">
+                </div>
+                <div class="text-center">
+                    <img class="pl-32 pt-2" src="asset 2/Polygon 8.png" alt="">
+                    <h2 class="font-righteous text-3xl text-page-white font-bold  ">Subscribe For Get Update<br>Every New Courses</h2>
+                
+                
+                    <p class="font-righteous text-small text-page-white font-extralight  pt-6">20k+ students daily learn with Eduvi. Subscribe for new courses.</p>
+                
+                
+                        <input type="email" placeholder="enter your mail" class="focus:outline-none mt-10 py-4 px-12 place rounded-lg bg-gradient-to-l from-indigo-500 to-sky-300 placeholder:text-page-white placeholder:font-righteous " >
+                        <button class="font-righteous text-page-white px-6 py-4 bg-[#0E38CD] ml-0 rounded-lg">Subscribe</button>
+                    
+                 </div>
+                 <div class="">
+                    <img class="pr-8 pt-12" src="asset 2/p4.png" alt="">
+                    <div><img class="pr-8 pt-12" src="asset 2/p5.png" alt=""></div>
+                    <img class="pr-8 pt-12" src="asset 2/p6.png" alt="">
+                </div>
+             </div>
+           
+               
+            <img class="absolute -mt-56 left-[150px]" src="asset 2/Polygon 8.png" alt="">
+        </div>
+        
+        
+        <div>
+          <img class="absolute right-[260px] -mt-28" src="asset 2/Polygon 7.png" alt="">
+            <div class="my-52">
+                
+                <img class=" absolute start-[650px] mt-44 z-10 w-32 " src="asset 2/play.png" alt="playbutton">
+                <img class="w-6/12 mx-80 relative -z-10" src="asset 2/girllap.png" alt="girl">
+                <img  class="w-44 absolute right-[370px] -mt-28" src= "asset 2/banner_right.png.png" alt="">
+               
+                
+            </div>
+        </div>
+    </section>
+    <!--end of page 5-->
+    
+    <section
+      class="bg-gradient-to-b from-page-l1p4  to-page-l2p4 pt-20 p-20 pb-10 -mt-40 overflow-hidden""
+    >
+      <div class="container overflow-hidden">
+        <div class="text center">
+          <img src="asset 2/semi.png" class="w-20 absolute" />
+          <h1 class="text-center text-2xl text-page-blue font-righteous">Testimonials</h1>
+          <p class="text-center text-page-grey2 font-righteous tracking-wider pt-4">
+            What our student say about us
+          </p>
+        </div>
+        <div class="flex mt-32 justify-center ">
+          <div class="relative pt-20">
+            <div
+              class="bg-white rounded-lg shadow-xl max-w-md px-12 py-7 text-justify  w-96"
+            >
+              <img
+                src="asset 2/girl.png"
+                class="w-16 h-16 -mt-16 rounded-full mx-auto mb-4"
+              />
+              <p class="text-xs text-page-para font-righteous mb-4">
+                Such an amazing traniner and easily understand the entire
+                syllabus, and the guidence will be super and good to the way of
+                explaning.
+              </p>
+              <img src="asset 2/stars.png"/>
+            </div>
+          </div>
+          <div class="absolute">
+            <div
+              class="bg-white rounded-lg shadow-xl max-w-md px-12 py-7 text-justify  w-96"
+            >
+              <img
+                src="asset 2/girl.png"
+                class="w-16 h-16 -mt-16 rounded-full mx-auto mb-4"
+              />
+              <p class="text-xs text-page-para font-righteous mb-4">
+                Such an amazing traniner and easily understand the entire
+                syllabus, and the guidence will be super and good to the way of
+                explaning.
+              </p>
+              <img src="asset 2/stars.png" />
+            </div>
+          </div>
+          <div class="pl-80 pt-20">
+            <div
+              class="bg-white rounded-lg shadow-xl max-w-md px-12 py-7 text-justify  w-96"
+            >
+              <img
+                src="asset 2/girl.png"
+                class="w-16 h-16 -mt-16 rounded-full mx-auto mb-4"
+              />
+              <p class="text-xs text-page-para font-righteous mb-4">
+                Such an amazing traniner and easily understand the entire
+                syllabus, and the guidence will be super and good to the way of
+                explaning.
+              </p>
+              <img src="asset 2/stars.png" />
+            </div>
+          </div>
+        </div>
+             </div>
+           </div>
+      </div>
+      <div class="flex justify-end mt-28 ml-full">
+        <img
+          src="asset 2/Back Arrow.png" alt="backarrow"
+          class=""
+        />
+        <img
+          src="asset 2/next arrow.png" alt="nextarrow"
+          class=""
+        />
+      </div>
+    </section>
+    <!--end of page 6-->
+    <section class="overflow-hidden">
+        <footer class="bg-gradient-to-r from-[#931BBD] to-[#477AE3] pt-10 font-righteous">
+            <div class="flex justify-around">
+              <div class="ml-5 gap4">
+                <h1 class="text-[#0A033C] text-lg pb-2 font-bold">Connect</h1>
+                <img
+                  src="asset 2/Askmeidentity logo.png"
+                  class="mix-blend-multiply -ml-10"
+                />
+                <address class="text-[#000000] text-xs">
+                  Sri Jagannath Nivas,8-1-164/345/A/1,<br />
+                  Pragati Colony, Mailardevpally, Nawab<br />
+                  Saheb Kunta, Hyd, 500005
+                </address>
+              </div>
+              <div class="">
+                <h1 class="text-lg text-[#0A033C] font-bold mt-2">Classes</h1>
+                <ul class="text-small font-semibold pt-2 text-[#000000]">
+                  <li class="cursor-pointer mt-1">Classroom courses</li>
+                  <li class="cursor-pointer mt-1">Virtual classroom courses</li>
+                  <li class="cursor-pointer mt-1">E-learning courses</li>
+                  <li class="cursor-pointer mt-1">Video Courses</li>
+                  <li class="cursor-pointer mt-1">Offline Courses</li>
+                </ul>
+              </div>
+              <div>
+                <h1 class="text-lg text-[#0A033C] font-bold mt-2">Community</h1>
+                <ul class="text-small pt-2 font-semibold text-[#000000]">
+                  <li class="cursor-pointer mt-1">Learners</li>
+                  <li class="cursor-pointer mt-1">Parteners</li>
+                  <li class="cursor-pointer mt-1">Developers</li>
+                  <li class="cursor-pointer mt-1">Transactions</li>
+                  <li class="cursor-pointer mt-1">Blog</li>
+                </ul>
+              </div>
+              <div>
+                <h1 class="text-lg text-[#0A033C] font-bold mt-2">Quick links</h1>
+                <ul class="text-small pt-2 font-semibold text-[#000000]">
+                  <li class="cursor-pointer mt-1">Home</li>
+                  <li class="cursor-pointer mt-1">Professional Education</li>
+                  <li class="cursor-pointer mt-1">Courses</li>
+                  <li class="cursor-pointer mt-1">Admissions</li>
+                  <li class="cursor-pointer mt-1">Testimonial</li>
+                  <li class="cursor-pointer mt-1">Programs</li>
+                </ul>
+              </div>
+              <div>
+                <h1 class="text-lg text-[#0A033C] font-bold">More</h1>
+                <ul class="text-small pt-2 font-semibold text-[#000000]">
+                  <li class="cursor-pointer mt-1">Press</li>
+                  <li class="cursor-pointer mt-1">Investor</li>
+                  <li class="cursor-pointer mt-1">Terms</li>
+                  <li class="cursor-pointer mt-1">Privacy</li>
+                  <li class="cursor-pointer mt-1">Help</li>
+                  <li class="cursor-pointer mt-1">contact</li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="flex justify-center gap-5 bg-gradient-to-r from-[#A542C8] to-[#0351AE] p-2 mt-7"
+            >
+              <img
+                src="asset 2/Instagram.png"
+                alt="social"
+                class="rounded-full bg-page-white"
+              />
+              <img
+                src="asset 2/WhatsApp.png"
+                alt="social"
+                class="rounded-full bg-page-white"
+              />
+              <img
+                src="asset 2/Twitter.png"
+                alt="social"
+                class="rounded-full bg-page-white"
+              />
+              <img
+                src="asset 2/LinkedIn.png"
+                alt="social"
+                class="rounded-full bg-page-white"
+              />
+              <img
+                src="asset 2/YouTube.png"
+                alt="social"
+                class="rounded-full bg-page-white"
+              />
+            </div>
+            <div class="">
+              <p
+                class="text-xs text-page-white font-righteous tracking-wider font-normal text-center pt-2 bg-[#0351AE]"
+              >
+                Copyright @ 2023 askmeidentity. All Rights Reserved
+              </p>
+            </div>
+          </footer>
+    </section>
+  </body>
+</html>
+
+
